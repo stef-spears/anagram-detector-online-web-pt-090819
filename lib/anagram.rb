@@ -11,8 +11,9 @@ class Anagram
   def match(arr)
     if @word.split.sort == arr.each {|w| w.split.sort}
       puts w
-      binding.pry
+      
     end 
+binding.pry
   end
   
 end 
