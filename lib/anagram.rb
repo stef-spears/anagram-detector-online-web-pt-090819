@@ -9,16 +9,15 @@ class Anagram
   end 
   
   def match(arr)
+    match_word = []
     arr.each do |w| 
-      w.split("").sort!
-      puts arr
+      if @word.split("").sort == w.split("").sort
+      match_word << w 
+      end
     end
-    binding.pry
+    match_word
+   # binding.pry
   end
-   # match_word = w
-  #  else
-   #   match_word = nil
-  #  end 
- # match_word
+
  
 end 
