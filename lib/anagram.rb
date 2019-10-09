@@ -13,7 +13,7 @@ class Anagram
       puts w
       
     end 
-binding.pry
+#binding.pry
   end
   
 end 
