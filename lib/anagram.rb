@@ -9,9 +9,10 @@ class Anagram
   end 
   
   def match(arr)
-    match_word = nil 
     if @word.split("").sort == arr.each {|w| w.split("").sort}
       match_word = w
+    else
+      match_word = nil
     end 
   match_word
 binding.pry
