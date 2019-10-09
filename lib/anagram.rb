@@ -9,11 +9,11 @@ class Anagram
   end 
   
   def match(arr)
-    
+    match_word = nil 
     if @word.split("").sort == arr.each {|w| w.split("").sort}
-      puts w
-      
+      match_word = w
     end 
+  match_word
 binding.pry
   end
   
