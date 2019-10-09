@@ -1,3 +1,5 @@
+require 'pry'
+
 class Anagram
   
   attr_accessor :word 
@@ -9,6 +11,7 @@ class Anagram
   def match(arr)
     if @word.split.sort == arr.each {|w| w.split.sort}
       puts w
+      binding.pry
     end 
   end
   
