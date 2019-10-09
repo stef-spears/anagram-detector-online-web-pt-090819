@@ -11,6 +11,7 @@ class Anagram
   def match(arr)
     arr.each do |w| 
       w.split("").sort!
+      puts arr
     end
     binding.pry
   end
