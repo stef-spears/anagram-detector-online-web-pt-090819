@@ -9,6 +9,7 @@ class Anagram
   def match(arr)
     if @word.split.sort == arr.each {|w| w.split.sort}
       puts w
+    end 
   end
   
 end 
