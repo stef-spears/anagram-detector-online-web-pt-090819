@@ -14,7 +14,7 @@ class Anagram
       match_word = w
     end 
   match_word
-#binding.pry
+binding.pry
   end
   
 end 
